@@ -115,12 +115,12 @@ const link: LinkType = ({ appearances, disableLabel = false, overrides = {} } = 
           admin: {
             width: '50%',
           },
-        },
-        {
-          name: 'icon',
-          label: 'Icon',
-          type: 'upload',
-          relationTo: 'media',
+          {
+            name: 'icon',
+            label: 'Icon',
+            type: 'upload',
+            relationTo: 'media',
+          }
         },
       ],
     })
