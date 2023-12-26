@@ -53,7 +53,7 @@ const Promotion = () => {
           <StatBox label="Seconds" value={time.seconds} />
         </ul>
       </div>
-    </section>
+  </section>
   )
 }
 
